@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Signup page -->
+    <form action="/hello.php">
+        <div class="main-container">
+            <table border="1">
+                <tr>
+                    <th colspan="2">Signup page</th>
+                </tr>
+                <tr>
+                    <td><label for="fullName">Full Name</label></td>
+                    <td><input type="text" id="fullName"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" value="male" name="gender" id="male">
+                        <Label for="male">Male</Label>
+                        <input type="radio" value="female" name="gender"> Female
+                        <input type="radio" value="others" name="gender"> Others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Reset"></td>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+
+</html>
