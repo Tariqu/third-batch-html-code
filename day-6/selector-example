@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element selector */
+        /* p {
+            color: red;
+        } */
+
+        /* class selector */
+        /* .text-red {
+            color: red;
+        } */
+
+        .bg-black {
+            background-color: black;
+        }
+
+        /* id selector */
+        #unique-id {
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="text-red bg-black">Day 6 coding</h1>
+    <h1 class="text-red">New text I don't want to make this bg as black</h1>
+    <h1>Very new text</h1>
+    <h1 class="bg-black">I don't want to make this h1 as red</h1>
+    <p class="text-red" id="unique-id">hello this a new paragraph</p>
+</body>
+
+</html>
