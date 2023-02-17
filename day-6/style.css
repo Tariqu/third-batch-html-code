@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  list-style: none;
+  background-color: cadetblue;
+  overflow: hidden;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header li {
+  display: inline-block;
+  padding: 10px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.header li:hover {
+  background-color: rgb(46, 80, 81);
+  color: white;
+  border-radius: 5px;
+}
+
+.header li:last-child {
+  float: right;
+}

@@ -1,0 +1,39 @@
+.div-bg {
+  background-color: black;
+  /* margin-top: 10px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px; */
+  /* margin: 10px 100px 100px 100px; */
+  margin: 10px;
+  padding: 20px 20px 20px 20px;
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: teal;
+}
+
+.side-nav {
+  display: inline-block;
+  background-color: deepskyblue;
+  height: 90vh;
+  width: 100px;
+}
+
+.body {
+  display: inline-block;
+  background-color: brown;
+  height: 90vh;
+  width: calc(100% - 104px);
+}
+
+.footer {
+  height: 5vh;
+  background-color: cadetblue;
+}
