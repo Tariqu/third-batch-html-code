@@ -1,0 +1,13 @@
+.item-1 {
+  position: relative;
+}
+
+.test {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  color: var(--clr-yellow);
+  padding: 10px;
+  border: 1px solid var(--clr-yellow);
+  border-radius: 100px;
+}
