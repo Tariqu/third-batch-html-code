@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  /* flex-wrap: wrap; this will unlock a new property align-content */
+  align-content: start;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  align-items: start;
+  /* gap: 1rem; */
+}
+/* applying on flex item */
+.item-2 {
+  flex-shrink: 0;
+}

@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-dark: #070a12;
+  --clr-light: #f1f5f9;
+  --clr-accent: #e11d48;
+  --clr-lightRose: #fb7185;
+  --clr-green: #4ade80;
+}
+
+body {
+  padding: 0;
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 10px;
+  height: 90vh;
+}
+
+.container {
+  border: 10px solid var(--clr-dark);
+  height: 100%;
+}
+
+.item {
+  height: 5rem;
+  width: 5rem;
+  border: 2px solid var(--clr-accent);
+  background-color: var(--clr-lightRose);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

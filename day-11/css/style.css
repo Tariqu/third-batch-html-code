@@ -1,0 +1,16 @@
+.main {
+  background-color: teal;
+  /* background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: top; */
+  height: 90vh;
+  clip-path: polygon(
+    0% 20%,
+    60% 20%,
+    60% 0%,
+    100% 50%,
+    60% 100%,
+    60% 80%,
+    0% 80%
+  );
+}
