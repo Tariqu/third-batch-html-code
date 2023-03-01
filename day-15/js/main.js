@@ -8,4 +8,4 @@ document.getElementById('sumBtn').addEventListener('click', () => {
     parseInt(firstNum) * parseInt(secondNum);
 });
 
-// Arithmatic operation
+// Arithmatic operation (+, *, /, -)
